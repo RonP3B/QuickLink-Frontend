@@ -1,0 +1,28 @@
+.shortened-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  width: 90%;
+
+  a {
+    color: #fff;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  svg {
+    margin-left: 10px;
+    color: #fff;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
